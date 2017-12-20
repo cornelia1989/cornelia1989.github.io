@@ -1,12 +1,6 @@
 
 
-/*
-Author: XpeedStudio
-Author URI: http://themeforest.net/user/XpeedStudio/portfolio
-*/
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+
 html,
 body {
     background-color: #ffffff;
@@ -22,6 +16,14 @@ body {
 /*==========================================
 PRE LOADER 
 ==========================================*/
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 .preloader {
     position: fixed;
     top: 0;
@@ -33,6 +35,28 @@ PRE LOADER
     height: 100%;
     width: 100%;
     overflow: hidden !important;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet; 
+    border: 1px black solid;
+    padding: 20px;
+    float: left; 
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
 }
 
 .loaded {
